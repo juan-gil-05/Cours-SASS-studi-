@@ -1,0 +1,26 @@
+@use "sass:math"
+@use "./_variables" as abstracts
+    
+@mixin circle($diameter, $url: '')
+    border-radius: 100%
+    width: $diameter
+    height: $diameter
+    background-image: url($url)
+    flex-shrink: 0
+
+@mixin rotate-around-planet($planet-size, $duration: 5s)
+        $center-x : 50%
+        $center-y : calc(50% + math.div($planet-size, 2))
+        transform-origin: $center-x $center-y
+        animation: animation-rotate $duration linear infinite
+
+@mixin rotate-around-sun($space-to-sun, $planet-size, $duration: 10s)
+    $center-x: -1 * ($space-to-sun + math.div(abstracts.$sun-size, 2))
+    $center-y: calc(math.div($planet-size, 2))
+    transform-origin: $center-x $center-y
+    animation: animation-rotate $duration linear infinite
+
+@mixin space-between-planets-and-sun($planet)
+    2 * abstracts.$gap-between-planets + abstracts.$mercury-size
+    $space-between-planets: abstracts.$gap-between-planets
+    

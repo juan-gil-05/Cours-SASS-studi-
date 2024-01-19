@@ -1,0 +1,21 @@
+/* Fichier principal qui va importer les autres fihiers .sass
+    Structure 7 - 1 = un fichier qui gère 7 dossiers.
+
+    L'orde des imports : 
+    - base
+    - vendors
+    - pages
+    - themes
+    - layout
+    - components
+    */
+
+@use "base/_reset"
+@use "base/_animations"
+
+@use "pages/_galaxy"
+
+@use "components/_satellite"
+@use "components/_planet"
+@use "components/_sun"
+@use "components/_star"

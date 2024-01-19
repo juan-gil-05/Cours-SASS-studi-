@@ -1,0 +1,29 @@
+@use "../abstracts/_all" as abstracts
+@use "sass:math"
+@use "sass:map"
+    
+$space-between-mercury-and-sun: abstracts.$gap-between-planets
+$space-between-venus-and-sun: 2 * abstracts.$gap-between-planets + abstracts.$mercury-size 
+$space-between-earth-and-sun: 3 * abstracts.$gap-between-planets + abstracts.$venus-size + abstracts.$mercury-size 
+$space-between-mars-and-sun: 4 * abstracts.$gap-between-planets + abstracts.$venus-size + abstracts.$mercury-size + abstracts.$earth-size
+
+
+
+$list-planets: 'mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturne', "uranus", 'neptune'
+$planets-size: ("mercury": #{abstracts.$mercury-size}, "venus": #{abstracts.$venus-size}, "earth": #{abstracts.$earth-size}, "mars": #{abstracts.$mars-size}, "jupiter": #{abstracts.$jupiter-size}, "saturne": #{abstracts.$saturne-size}, "uranus": #{abstracts.$uranus-size}, "neptune": #{abstracts.$neptune-size})
+$planets-sun-distance: ("mercury": $space-between-mercury-and-sun, "venus": $space-between-venus-and-sun, "earth": $space-between-earth-and-sun, "mars": $space-between-mars-and-sun)
+
+.planet
+
+    @each $planet in $list-planets
+        &--#{$planet}
+            position: relative
+            $background-planet: "../images/#{$planet}.svg"
+            $size-planet: map.get($planets-size, $planet)
+            $distance-between-planet-and-sun: map.get($planets-sun-distance, $planet)
+            @if $distance-between-planet-and-sun
+                @include abstracts.rotate-around-sun($distance-between-planet-and-sun, $size-planet, 20s)
+            @include abstracts.circle($size-planet, $background-planet)
+            @if $planet == 'uranus' or $planet == 'saturne'
+                border-radius: 0
+

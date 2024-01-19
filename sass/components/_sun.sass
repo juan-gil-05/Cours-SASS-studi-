@@ -1,0 +1,6 @@
+@use "../abstracts/_all" as abstracts
+    
+.sun
+    $background: "../images/sun.svg"
+    @include abstracts.circle(abstracts.$sun-size, $background)
+    animation: animation-rotate 50s linear infinite
