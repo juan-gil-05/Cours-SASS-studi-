@@ -47,7 +47,7 @@
   justify-content: flex-start;
   height: 100vh;
   gap: 20px;
-  padding-left: calc(50vw - 95px);
+  padding-left: calc(50vw - 76px);
   position: relative;
   z-index: 1;
 }
@@ -72,102 +72,110 @@
 }
 .satellite--moon {
   background-color: grey;
-  transform-origin: 50% calc(50% + 25px);
-  animation: animation-rotate 5s linear infinite;
+  transform-origin: 50% calc(50% + 20px);
+  animation: animation-rotate 8s linear infinite;
 }
 .satellite--phobos {
   background-color: white;
-  transform-origin: 50% calc(50% + 13.1578947368px);
-  animation: animation-rotate 5s linear infinite;
+  transform-origin: 50% calc(50% + 10.5263157895px);
+  animation: animation-rotate 8s linear infinite;
 }
 .satellite--deimos {
   background-color: orange;
-  transform-origin: 50% calc(50% + 13.1578947368px);
-  animation: animation-rotate 2s linear infinite;
+  transform-origin: 50% calc(50% + 10.5263157895px);
+  animation: animation-rotate 6s linear infinite;
 }
 
 .planet--mercury {
   position: relative;
-  transform-origin: -115px calc(19.2307692308px/2);
+  transform-origin: -96px calc(15.3846153846px/2);
   animation: animation-rotate 20s linear infinite;
   border-radius: 100%;
-  width: 19.2307692308px;
-  height: 19.2307692308px;
+  width: 15.3846153846px;
+  height: 15.3846153846px;
   background-image: url("../images/mercury.svg");
   flex-shrink: 0;
 }
 .planet--venus {
   position: relative;
-  transform-origin: -154.2307692308px calc(45.4545454545px/2);
-  animation: animation-rotate 20s linear infinite;
+  transform-origin: -131.3846153846px calc(36.3636363636px/2);
+  animation: animation-rotate 23s linear infinite;
   border-radius: 100%;
-  width: 45.4545454545px;
-  height: 45.4545454545px;
+  width: 36.3636363636px;
+  height: 36.3636363636px;
   background-image: url("../images/venus.svg");
   flex-shrink: 0;
 }
 .planet--earth {
   position: relative;
-  transform-origin: -219.6853146853px calc(50px/2);
-  animation: animation-rotate 20s linear infinite;
+  transform-origin: -187.7482517483px calc(40px/2);
+  animation: animation-rotate 26s linear infinite;
   border-radius: 100%;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-image: url("../images/earth.svg");
   flex-shrink: 0;
 }
 .planet--mars {
   position: relative;
-  transform-origin: -289.6853146853px calc(26.3157894737px/2);
-  animation: animation-rotate 20s linear infinite;
+  transform-origin: -247.7482517483px calc(21.0526315789px/2);
+  animation: animation-rotate 29s linear infinite;
   border-radius: 100%;
-  width: 26.3157894737px;
-  height: 26.3157894737px;
+  width: 21.0526315789px;
+  height: 21.0526315789px;
   background-image: url("../images/mars.svg");
   flex-shrink: 0;
 }
 .planet--jupiter {
   position: relative;
+  transform-origin: -288.8008833272px calc(80px/2);
+  animation: animation-rotate 32s linear infinite;
   border-radius: 100%;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-image: url("../images/jupiter.svg");
   flex-shrink: 0;
 }
 .planet--saturne {
   position: relative;
+  transform-origin: -388.8008833272px calc(60px/2);
+  animation: animation-rotate 35s linear infinite;
   border-radius: 100%;
-  width: 75px;
-  height: 75px;
+  width: 60px;
+  height: 60px;
   background-image: url("../images/saturne.svg");
   flex-shrink: 0;
   border-radius: 0;
 }
 .planet--uranus {
   position: relative;
+  transform-origin: -468.8008833272px calc(48px/2);
+  animation: animation-rotate 38s linear infinite;
   border-radius: 100%;
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   background-image: url("../images/uranus.svg");
   flex-shrink: 0;
   border-radius: 0;
 }
 .planet--neptune {
   position: relative;
+  transform-origin: -536.8008833272px calc(40px/2);
+  animation: animation-rotate 41s linear infinite;
   border-radius: 100%;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-image: url("../images/neptune.svg");
   flex-shrink: 0;
 }
 
 .sun {
   border-radius: 100%;
-  width: 190px;
-  height: 190px;
+  width: 152px;
+  height: 152px;
   background-image: url("../images/sun.svg");
   flex-shrink: 0;
-  animation: animation-rotate 50s linear infinite;
+  animation: animation-rotate 60s linear infinite;
 }
 
 .star {
@@ -176,351 +184,701 @@
 }
 .star:nth-child(1) {
   position: absolute;
-  top: 45%;
-  left: 64%;
-  rotate: 37deg;
-  filter: blur(4px);
+  top: 77%;
+  left: 53%;
+  rotate: 95deg;
+  filter: blur(3px);
 }
 .star:nth-child(2) {
   position: absolute;
-  top: 47%;
-  left: 71%;
-  rotate: 165deg;
-  filter: blur(2px);
+  top: 9%;
+  left: 59%;
+  rotate: 292deg;
+  filter: blur(5px);
 }
 .star:nth-child(3) {
   position: absolute;
-  top: 33%;
-  left: 51%;
-  rotate: 77deg;
-  filter: blur(5px);
+  top: 45%;
+  left: 62%;
+  rotate: 49deg;
+  filter: blur(1px);
 }
 .star:nth-child(4) {
   position: absolute;
-  top: 17%;
-  left: 18%;
-  rotate: 11deg;
-  filter: blur(1px);
+  top: 36%;
+  left: 79%;
+  rotate: 13deg;
+  filter: blur(5px);
 }
 .star:nth-child(5) {
   position: absolute;
-  top: 32%;
-  left: 90%;
-  rotate: 103deg;
-  filter: blur(1px);
+  top: 66%;
+  left: 21%;
+  rotate: 200deg;
+  filter: blur(3px);
 }
 .star:nth-child(6) {
   position: absolute;
-  top: 54%;
-  left: 27%;
-  rotate: 62deg;
+  top: 58%;
+  left: 89%;
+  rotate: 181deg;
   filter: blur(2px);
 }
 .star:nth-child(7) {
   position: absolute;
-  top: 77%;
-  left: 95%;
-  rotate: 343deg;
-  filter: blur(1px);
+  top: 63%;
+  left: 7%;
+  rotate: 64deg;
+  filter: blur(4px);
 }
 .star:nth-child(8) {
   position: absolute;
-  top: 32%;
-  left: 56%;
-  rotate: 110deg;
-  filter: blur(1px);
+  top: 14%;
+  left: 26%;
+  rotate: 329deg;
+  filter: blur(2px);
 }
 .star:nth-child(9) {
   position: absolute;
-  top: 76%;
-  left: 9%;
-  rotate: 59deg;
-  filter: blur(1px);
+  top: 19%;
+  left: 88%;
+  rotate: 167deg;
+  filter: blur(4px);
 }
 .star:nth-child(10) {
   position: absolute;
-  top: 29%;
-  left: 76%;
-  rotate: 101deg;
+  top: 47%;
+  left: 60%;
+  rotate: 217deg;
   filter: blur(1px);
 }
 .star:nth-child(11) {
   position: absolute;
-  top: 73%;
-  left: 13%;
-  rotate: 315deg;
-  filter: blur(3px);
+  top: 21%;
+  left: 40%;
+  rotate: 234deg;
+  filter: blur(1px);
 }
 .star:nth-child(12) {
   position: absolute;
-  top: 49%;
-  left: 41%;
-  rotate: 266deg;
-  filter: blur(5px);
+  top: 37%;
+  left: 17%;
+  rotate: 220deg;
+  filter: blur(4px);
 }
 .star:nth-child(13) {
   position: absolute;
-  top: 4%;
-  left: 26%;
-  rotate: 286deg;
-  filter: blur(2px);
+  top: 44%;
+  left: 28%;
+  rotate: 344deg;
+  filter: blur(5px);
 }
 .star:nth-child(14) {
   position: absolute;
-  top: 26%;
-  left: 63%;
-  rotate: 118deg;
-  filter: blur(2px);
+  top: 67%;
+  left: 62%;
+  rotate: 212deg;
+  filter: blur(4px);
 }
 .star:nth-child(15) {
   position: absolute;
-  top: 1%;
-  left: 75%;
-  rotate: 319deg;
-  filter: blur(2px);
+  top: 31%;
+  left: 17%;
+  rotate: 115deg;
+  filter: blur(4px);
 }
 .star:nth-child(16) {
   position: absolute;
-  top: 52%;
-  left: 76%;
-  rotate: 324deg;
-  filter: blur(4px);
+  top: 3%;
+  left: 40%;
+  rotate: 102deg;
+  filter: blur(1px);
 }
 .star:nth-child(17) {
   position: absolute;
-  top: 54%;
-  left: 67%;
-  rotate: 166deg;
-  filter: blur(3px);
+  top: 69%;
+  left: 9%;
+  rotate: 247deg;
+  filter: blur(4px);
 }
 .star:nth-child(18) {
   position: absolute;
-  top: 56%;
-  left: 27%;
-  rotate: 261deg;
-  filter: blur(3px);
+  top: 84%;
+  left: 95%;
+  rotate: 327deg;
+  filter: blur(4px);
 }
 .star:nth-child(19) {
   position: absolute;
-  top: 27%;
-  left: 82%;
+  top: 72%;
+  left: 85%;
   rotate: 323deg;
-  filter: blur(4px);
+  filter: blur(3px);
 }
 .star:nth-child(20) {
   position: absolute;
-  top: 28%;
-  left: 20%;
-  rotate: 124deg;
-  filter: blur(1px);
+  top: 62%;
+  left: 19%;
+  rotate: 80deg;
+  filter: blur(3px);
 }
 .star:nth-child(21) {
   position: absolute;
-  top: 35%;
-  left: 45%;
-  rotate: 206deg;
+  top: 2%;
+  left: 39%;
+  rotate: 259deg;
   filter: blur(4px);
 }
 .star:nth-child(22) {
   position: absolute;
-  top: 11%;
-  left: 83%;
-  rotate: 3deg;
-  filter: blur(4px);
+  top: 66%;
+  left: 75%;
+  rotate: 197deg;
+  filter: blur(1px);
 }
 .star:nth-child(23) {
   position: absolute;
-  top: 67%;
-  left: 10%;
-  rotate: 150deg;
-  filter: blur(5px);
+  top: 17%;
+  left: 18%;
+  rotate: 106deg;
+  filter: blur(1px);
 }
 .star:nth-child(24) {
   position: absolute;
-  top: 94%;
-  left: 87%;
-  rotate: 40deg;
-  filter: blur(5px);
+  top: 12%;
+  left: 63%;
+  rotate: 168deg;
+  filter: blur(4px);
 }
 .star:nth-child(25) {
   position: absolute;
-  top: 41%;
-  left: 46%;
+  top: 40%;
+  left: 6%;
   rotate: 15deg;
   filter: blur(1px);
 }
 .star:nth-child(26) {
   position: absolute;
-  top: 75%;
-  left: 67%;
-  rotate: 348deg;
+  top: 62%;
+  left: 85%;
+  rotate: 48deg;
   filter: blur(5px);
 }
 .star:nth-child(27) {
   position: absolute;
-  top: 55%;
-  left: 35%;
-  rotate: 11deg;
-  filter: blur(1px);
+  top: 79%;
+  left: 52%;
+  rotate: 332deg;
+  filter: blur(3px);
 }
 .star:nth-child(28) {
   position: absolute;
-  top: 91%;
-  left: 63%;
-  rotate: 359deg;
-  filter: blur(5px);
+  top: 12%;
+  left: 39%;
+  rotate: 18deg;
+  filter: blur(4px);
 }
 .star:nth-child(29) {
   position: absolute;
-  top: 41%;
-  left: 32%;
-  rotate: 314deg;
-  filter: blur(3px);
+  top: 76%;
+  left: 84%;
+  rotate: 302deg;
+  filter: blur(5px);
 }
 .star:nth-child(30) {
   position: absolute;
-  top: 70%;
-  left: 47%;
-  rotate: 342deg;
-  filter: blur(5px);
+  top: 80%;
+  left: 93%;
+  rotate: 56deg;
+  filter: blur(1px);
 }
 .star:nth-child(31) {
   position: absolute;
-  top: 31%;
-  left: 23%;
-  rotate: 330deg;
-  filter: blur(4px);
+  top: 7%;
+  left: 28%;
+  rotate: 232deg;
+  filter: blur(3px);
 }
 .star:nth-child(32) {
   position: absolute;
-  top: 69%;
-  left: 69%;
-  rotate: 336deg;
+  top: 7%;
+  left: 73%;
+  rotate: 139deg;
   filter: blur(3px);
 }
 .star:nth-child(33) {
   position: absolute;
-  top: 40%;
-  left: 53%;
-  rotate: 80deg;
+  top: 74%;
+  left: 83%;
+  rotate: 245deg;
   filter: blur(1px);
 }
 .star:nth-child(34) {
   position: absolute;
-  top: 76%;
-  left: 17%;
-  rotate: 16deg;
-  filter: blur(5px);
+  top: 53%;
+  left: 80%;
+  rotate: 2deg;
+  filter: blur(2px);
 }
 .star:nth-child(35) {
   position: absolute;
-  top: 21%;
+  top: 39%;
   left: 74%;
-  rotate: 237deg;
-  filter: blur(3px);
+  rotate: 271deg;
+  filter: blur(4px);
 }
 .star:nth-child(36) {
   position: absolute;
-  top: 33%;
-  left: 82%;
-  rotate: 231deg;
-  filter: blur(4px);
+  top: 48%;
+  left: 16%;
+  rotate: 158deg;
+  filter: blur(2px);
 }
 .star:nth-child(37) {
   position: absolute;
-  top: 15%;
-  left: 50%;
-  rotate: 57deg;
-  filter: blur(1px);
+  top: 52%;
+  left: 28%;
+  rotate: 211deg;
+  filter: blur(4px);
 }
 .star:nth-child(38) {
   position: absolute;
-  top: 41%;
-  left: 46%;
-  rotate: 305deg;
-  filter: blur(3px);
+  top: 18%;
+  left: 21%;
+  rotate: 271deg;
+  filter: blur(2px);
 }
 .star:nth-child(39) {
   position: absolute;
-  top: 42%;
-  left: 35%;
-  rotate: 82deg;
-  filter: blur(3px);
+  top: 55%;
+  left: 56%;
+  rotate: 282deg;
+  filter: blur(4px);
 }
 .star:nth-child(40) {
   position: absolute;
-  top: 29%;
-  left: 80%;
-  rotate: 189deg;
-  filter: blur(4px);
+  top: 70%;
+  left: 23%;
+  rotate: 213deg;
+  filter: blur(5px);
 }
 .star:nth-child(41) {
   position: absolute;
-  top: 44%;
-  left: 35%;
-  rotate: 240deg;
-  filter: blur(5px);
+  top: 17%;
+  left: 24%;
+  rotate: 144deg;
+  filter: blur(3px);
 }
 .star:nth-child(42) {
   position: absolute;
-  top: 70%;
-  left: 92%;
-  rotate: 78deg;
-  filter: blur(1px);
+  top: 88%;
+  left: 51%;
+  rotate: 185deg;
+  filter: blur(5px);
 }
 .star:nth-child(43) {
   position: absolute;
-  top: 62%;
-  left: 28%;
-  rotate: 132deg;
-  filter: blur(5px);
+  top: 77%;
+  left: 44%;
+  rotate: 265deg;
+  filter: blur(4px);
 }
 .star:nth-child(44) {
   position: absolute;
-  top: 82%;
+  top: 62%;
   left: 37%;
-  rotate: 171deg;
-  filter: blur(4px);
+  rotate: 179deg;
+  filter: blur(5px);
 }
 .star:nth-child(45) {
   position: absolute;
-  top: 13%;
-  left: 58%;
-  rotate: 154deg;
-  filter: blur(1px);
+  top: 48%;
+  left: 47%;
+  rotate: 69deg;
+  filter: blur(3px);
 }
 .star:nth-child(46) {
   position: absolute;
-  top: 73%;
-  left: 41%;
-  rotate: 17deg;
-  filter: blur(3px);
+  top: 6%;
+  left: 48%;
+  rotate: 213deg;
+  filter: blur(5px);
 }
 .star:nth-child(47) {
   position: absolute;
-  top: 1%;
-  left: 85%;
-  rotate: 287deg;
-  filter: blur(2px);
+  top: 30%;
+  left: 92%;
+  rotate: 275deg;
+  filter: blur(4px);
 }
 .star:nth-child(48) {
   position: absolute;
-  top: 43%;
-  left: 57%;
-  rotate: 78deg;
+  top: 68%;
+  left: 36%;
+  rotate: 181deg;
   filter: blur(5px);
 }
 .star:nth-child(49) {
   position: absolute;
-  top: 78%;
-  left: 72%;
-  rotate: 147deg;
+  top: 64%;
+  left: 68%;
+  rotate: 304deg;
   filter: blur(2px);
 }
 .star:nth-child(50) {
   position: absolute;
-  top: 88%;
-  left: 45%;
-  rotate: 28deg;
+  top: 92%;
+  left: 29%;
+  rotate: 193deg;
+  filter: blur(3px);
+}
+.star:nth-child(51) {
+  position: absolute;
+  top: 58%;
+  left: 3%;
+  rotate: 329deg;
+  filter: blur(4px);
+}
+.star:nth-child(52) {
+  position: absolute;
+  top: 5%;
+  left: 22%;
+  rotate: 208deg;
+  filter: blur(3px);
+}
+.star:nth-child(53) {
+  position: absolute;
+  top: 69%;
+  left: 75%;
+  rotate: 16deg;
+  filter: blur(1px);
+}
+.star:nth-child(54) {
+  position: absolute;
+  top: 91%;
+  left: 28%;
+  rotate: 50deg;
+  filter: blur(5px);
+}
+.star:nth-child(55) {
+  position: absolute;
+  top: 20%;
+  left: 46%;
+  rotate: 247deg;
+  filter: blur(4px);
+}
+.star:nth-child(56) {
+  position: absolute;
+  top: 67%;
+  left: 58%;
+  rotate: 9deg;
+  filter: blur(1px);
+}
+.star:nth-child(57) {
+  position: absolute;
+  top: 1%;
+  left: 6%;
+  rotate: 337deg;
+  filter: blur(4px);
+}
+.star:nth-child(58) {
+  position: absolute;
+  top: 45%;
+  left: 94%;
+  rotate: 217deg;
+  filter: blur(4px);
+}
+.star:nth-child(59) {
+  position: absolute;
+  top: 15%;
+  left: 74%;
+  rotate: 140deg;
   filter: blur(2px);
+}
+.star:nth-child(60) {
+  position: absolute;
+  top: 19%;
+  left: 23%;
+  rotate: 135deg;
+  filter: blur(2px);
+}
+.star:nth-child(61) {
+  position: absolute;
+  top: 86%;
+  left: 27%;
+  rotate: 201deg;
+  filter: blur(3px);
+}
+.star:nth-child(62) {
+  position: absolute;
+  top: 48%;
+  left: 95%;
+  rotate: 221deg;
+  filter: blur(5px);
+}
+.star:nth-child(63) {
+  position: absolute;
+  top: 75%;
+  left: 56%;
+  rotate: 127deg;
+  filter: blur(5px);
+}
+.star:nth-child(64) {
+  position: absolute;
+  top: 62%;
+  left: 82%;
+  rotate: 261deg;
+  filter: blur(3px);
+}
+.star:nth-child(65) {
+  position: absolute;
+  top: 28%;
+  left: 59%;
+  rotate: 11deg;
+  filter: blur(4px);
+}
+.star:nth-child(66) {
+  position: absolute;
+  top: 86%;
+  left: 5%;
+  rotate: 50deg;
+  filter: blur(4px);
+}
+.star:nth-child(67) {
+  position: absolute;
+  top: 42%;
+  left: 8%;
+  rotate: 311deg;
+  filter: blur(4px);
+}
+.star:nth-child(68) {
+  position: absolute;
+  top: 63%;
+  left: 20%;
+  rotate: 69deg;
+  filter: blur(4px);
+}
+.star:nth-child(69) {
+  position: absolute;
+  top: 60%;
+  left: 62%;
+  rotate: 191deg;
+  filter: blur(4px);
+}
+.star:nth-child(70) {
+  position: absolute;
+  top: 5%;
+  left: 37%;
+  rotate: 187deg;
+  filter: blur(2px);
+}
+.star:nth-child(71) {
+  position: absolute;
+  top: 33%;
+  left: 64%;
+  rotate: 66deg;
+  filter: blur(3px);
+}
+.star:nth-child(72) {
+  position: absolute;
+  top: 53%;
+  left: 3%;
+  rotate: 110deg;
+  filter: blur(2px);
+}
+.star:nth-child(73) {
+  position: absolute;
+  top: 54%;
+  left: 41%;
+  rotate: 291deg;
+  filter: blur(2px);
+}
+.star:nth-child(74) {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  rotate: 258deg;
+  filter: blur(3px);
+}
+.star:nth-child(75) {
+  position: absolute;
+  top: 59%;
+  left: 70%;
+  rotate: 156deg;
+  filter: blur(1px);
+}
+.star:nth-child(76) {
+  position: absolute;
+  top: 93%;
+  left: 64%;
+  rotate: 133deg;
+  filter: blur(5px);
+}
+.star:nth-child(77) {
+  position: absolute;
+  top: 52%;
+  left: 56%;
+  rotate: 339deg;
+  filter: blur(2px);
+}
+.star:nth-child(78) {
+  position: absolute;
+  top: 33%;
+  left: 83%;
+  rotate: 54deg;
+  filter: blur(4px);
+}
+.star:nth-child(79) {
+  position: absolute;
+  top: 2%;
+  left: 4%;
+  rotate: 152deg;
+  filter: blur(1px);
+}
+.star:nth-child(80) {
+  position: absolute;
+  top: 95%;
+  left: 44%;
+  rotate: 19deg;
+  filter: blur(1px);
+}
+.star:nth-child(81) {
+  position: absolute;
+  top: 39%;
+  left: 14%;
+  rotate: 305deg;
+  filter: blur(3px);
+}
+.star:nth-child(82) {
+  position: absolute;
+  top: 59%;
+  left: 54%;
+  rotate: 99deg;
+  filter: blur(4px);
+}
+.star:nth-child(83) {
+  position: absolute;
+  top: 5%;
+  left: 67%;
+  rotate: 235deg;
+  filter: blur(4px);
+}
+.star:nth-child(84) {
+  position: absolute;
+  top: 15%;
+  left: 38%;
+  rotate: 126deg;
+  filter: blur(4px);
+}
+.star:nth-child(85) {
+  position: absolute;
+  top: 81%;
+  left: 20%;
+  rotate: 35deg;
+  filter: blur(5px);
+}
+.star:nth-child(86) {
+  position: absolute;
+  top: 29%;
+  left: 51%;
+  rotate: 115deg;
+  filter: blur(5px);
+}
+.star:nth-child(87) {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  rotate: 288deg;
+  filter: blur(3px);
+}
+.star:nth-child(88) {
+  position: absolute;
+  top: 10%;
+  left: 36%;
+  rotate: 294deg;
+  filter: blur(2px);
+}
+.star:nth-child(89) {
+  position: absolute;
+  top: 81%;
+  left: 49%;
+  rotate: 59deg;
+  filter: blur(3px);
+}
+.star:nth-child(90) {
+  position: absolute;
+  top: 8%;
+  left: 11%;
+  rotate: 19deg;
+  filter: blur(2px);
+}
+.star:nth-child(91) {
+  position: absolute;
+  top: 2%;
+  left: 68%;
+  rotate: 290deg;
+  filter: blur(3px);
+}
+.star:nth-child(92) {
+  position: absolute;
+  top: 49%;
+  left: 15%;
+  rotate: 127deg;
+  filter: blur(3px);
+}
+.star:nth-child(93) {
+  position: absolute;
+  top: 85%;
+  left: 34%;
+  rotate: 183deg;
+  filter: blur(3px);
+}
+.star:nth-child(94) {
+  position: absolute;
+  top: 73%;
+  left: 45%;
+  rotate: 13deg;
+  filter: blur(1px);
+}
+.star:nth-child(95) {
+  position: absolute;
+  top: 21%;
+  left: 22%;
+  rotate: 124deg;
+  filter: blur(2px);
+}
+.star:nth-child(96) {
+  position: absolute;
+  top: 44%;
+  left: 8%;
+  rotate: 89deg;
+  filter: blur(3px);
+}
+.star:nth-child(97) {
+  position: absolute;
+  top: 55%;
+  left: 9%;
+  rotate: 49deg;
+  filter: blur(2px);
+}
+.star:nth-child(98) {
+  position: absolute;
+  top: 84%;
+  left: 53%;
+  rotate: 46deg;
+  filter: blur(2px);
+}
+.star:nth-child(99) {
+  position: absolute;
+  top: 12%;
+  left: 91%;
+  rotate: 200deg;
+  filter: blur(1px);
+}
+.star:nth-child(100) {
+  position: absolute;
+  top: 28%;
+  left: 30%;
+  rotate: 140deg;
+  filter: blur(3px);
 }/*# sourceMappingURL=main.css.map */

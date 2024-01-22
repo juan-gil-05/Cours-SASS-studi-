@@ -1,17 +1,11 @@
 @use "../abstracts/_all" as abstracts
 @use "sass:math"
-@use "sass:map"
-    
-$space-between-mercury-and-sun: abstracts.$gap-between-planets
-$space-between-venus-and-sun: 2 * abstracts.$gap-between-planets + abstracts.$mercury-size 
-$space-between-earth-and-sun: 3 * abstracts.$gap-between-planets + abstracts.$venus-size + abstracts.$mercury-size 
-$space-between-mars-and-sun: 4 * abstracts.$gap-between-planets + abstracts.$venus-size + abstracts.$mercury-size + abstracts.$earth-size
-
-
+@use "sass:map"    
 
 $list-planets: 'mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturne', "uranus", 'neptune'
 $planets-size: ("mercury": #{abstracts.$mercury-size}, "venus": #{abstracts.$venus-size}, "earth": #{abstracts.$earth-size}, "mars": #{abstracts.$mars-size}, "jupiter": #{abstracts.$jupiter-size}, "saturne": #{abstracts.$saturne-size}, "uranus": #{abstracts.$uranus-size}, "neptune": #{abstracts.$neptune-size})
-$planets-sun-distance: ("mercury": $space-between-mercury-and-sun, "venus": $space-between-venus-and-sun, "earth": $space-between-earth-and-sun, "mars": $space-between-mars-and-sun)
+$planets-sun-distance: ("mercury": abstracts.planets-to-sun('mercury'), "venus": abstracts.planets-to-sun('venus'), "earth": abstracts.planets-to-sun('earth'), "mars": abstracts.planets-to-sun('mars'), "jupiter": abstracts.planets-to-sun('jupiter'), "saturne": abstracts.planets-to-sun('saturne'), "uranus": abstracts.planets-to-sun('uranus'), "neptune": abstracts.planets-to-sun('neptune'))
+$planets-velocity: ("mercury": 20s, "venus": 23s, "earth": 26s, 'mars': 29s, "jupiter": 32s, "saturne": 35s,"uranus": 38s, "neptune": 41s)
 
 .planet
 
@@ -21,8 +15,9 @@ $planets-sun-distance: ("mercury": $space-between-mercury-and-sun, "venus": $spa
             $background-planet: "../images/#{$planet}.svg"
             $size-planet: map.get($planets-size, $planet)
             $distance-between-planet-and-sun: map.get($planets-sun-distance, $planet)
+            $duration: map.get($planets-velocity, $planet)
             @if $distance-between-planet-and-sun
-                @include abstracts.rotate-around-sun($distance-between-planet-and-sun, $size-planet, 20s)
+                @include abstracts.rotate-around-sun($distance-between-planet-and-sun, $size-planet, $duration)
             @include abstracts.circle($size-planet, $background-planet)
             @if $planet == 'uranus' or $planet == 'saturne'
                 border-radius: 0

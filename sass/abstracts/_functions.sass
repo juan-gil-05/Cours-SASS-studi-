@@ -1,4 +1,6 @@
 @use "sass:math"
+@use "../abstracts/_variables" as abstracts
+
 
 @function random-position()
     $number: math.random(95)
@@ -12,3 +14,23 @@
 @function random-blur()
     $blur: math.random(5)
     @return blur(#{$blur}px)
+
+@function planets-to-sun($planet)
+    $distance-to-sun: 0
+    @if $planet == 'mercury'
+        $distance-to-sun: abstracts.$gap-between-planets
+    @if $planet == 'venus'
+        $distance-to-sun: 2 * abstracts.$gap-between-planets + abstracts.$mercury-size
+    @if $planet == 'earth'
+        $distance-to-sun: 3 * abstracts.$gap-between-planets + abstracts.$venus-size + abstracts.$mercury-size 
+    @if $planet == 'mars'
+        $distance-to-sun: 4 * abstracts.$gap-between-planets + abstracts.$venus-size + abstracts.$mercury-size + abstracts.$earth-size
+    @if $planet == 'jupiter'
+        $distance-to-sun: 5 * abstracts.$gap-between-planets + abstracts.$venus-size + abstracts.$mercury-size + abstracts.$earth-size + abstracts.$mars-size
+    @if $planet == 'saturne'
+        $distance-to-sun: 6 * abstracts.$gap-between-planets + abstracts.$venus-size + abstracts.$mercury-size + abstracts.$earth-size + abstracts.$mars-size + abstracts.$jupiter-size
+    @if $planet == 'uranus'
+        $distance-to-sun: 7 * abstracts.$gap-between-planets + abstracts.$venus-size + abstracts.$mercury-size + abstracts.$earth-size + abstracts.$mars-size + abstracts.$jupiter-size + abstracts.$saturne-size
+    @if $planet == 'neptune'
+        $distance-to-sun: 8 * abstracts.$gap-between-planets + abstracts.$venus-size + abstracts.$mercury-size + abstracts.$earth-size + abstracts.$mars-size + abstracts.$jupiter-size + abstracts.$saturne-size + abstracts.$uranus-size
+    @return $distance-to-sun
