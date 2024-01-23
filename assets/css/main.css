@@ -184,701 +184,701 @@
 }
 .star:nth-child(1) {
   position: absolute;
-  top: 77%;
-  left: 53%;
-  rotate: 95deg;
+  top: 84%;
+  left: 61%;
+  rotate: 12deg;
   filter: blur(3px);
 }
 .star:nth-child(2) {
   position: absolute;
-  top: 9%;
-  left: 59%;
-  rotate: 292deg;
-  filter: blur(5px);
+  top: 51%;
+  left: 82%;
+  rotate: 151deg;
+  filter: blur(4px);
 }
 .star:nth-child(3) {
   position: absolute;
-  top: 45%;
-  left: 62%;
-  rotate: 49deg;
+  top: 88%;
+  left: 90%;
+  rotate: 262deg;
   filter: blur(1px);
 }
 .star:nth-child(4) {
   position: absolute;
-  top: 36%;
-  left: 79%;
-  rotate: 13deg;
+  top: 62%;
+  left: 62%;
+  rotate: 307deg;
   filter: blur(5px);
 }
 .star:nth-child(5) {
   position: absolute;
-  top: 66%;
-  left: 21%;
-  rotate: 200deg;
-  filter: blur(3px);
+  top: 19%;
+  left: 70%;
+  rotate: 302deg;
+  filter: blur(4px);
 }
 .star:nth-child(6) {
   position: absolute;
-  top: 58%;
-  left: 89%;
-  rotate: 181deg;
-  filter: blur(2px);
+  top: 82%;
+  left: 21%;
+  rotate: 253deg;
+  filter: blur(3px);
 }
 .star:nth-child(7) {
   position: absolute;
-  top: 63%;
-  left: 7%;
-  rotate: 64deg;
-  filter: blur(4px);
+  top: 93%;
+  left: 49%;
+  rotate: 112deg;
+  filter: blur(3px);
 }
 .star:nth-child(8) {
   position: absolute;
-  top: 14%;
-  left: 26%;
-  rotate: 329deg;
-  filter: blur(2px);
+  top: 45%;
+  left: 89%;
+  rotate: 84deg;
+  filter: blur(4px);
 }
 .star:nth-child(9) {
   position: absolute;
-  top: 19%;
-  left: 88%;
-  rotate: 167deg;
-  filter: blur(4px);
+  top: 38%;
+  left: 9%;
+  rotate: 282deg;
+  filter: blur(5px);
 }
 .star:nth-child(10) {
   position: absolute;
-  top: 47%;
-  left: 60%;
-  rotate: 217deg;
+  top: 16%;
+  left: 38%;
+  rotate: 107deg;
   filter: blur(1px);
 }
 .star:nth-child(11) {
   position: absolute;
-  top: 21%;
-  left: 40%;
-  rotate: 234deg;
-  filter: blur(1px);
+  top: 18%;
+  left: 34%;
+  rotate: 163deg;
+  filter: blur(5px);
 }
 .star:nth-child(12) {
   position: absolute;
-  top: 37%;
-  left: 17%;
-  rotate: 220deg;
-  filter: blur(4px);
+  top: 88%;
+  left: 92%;
+  rotate: 60deg;
+  filter: blur(2px);
 }
 .star:nth-child(13) {
   position: absolute;
-  top: 44%;
-  left: 28%;
-  rotate: 344deg;
-  filter: blur(5px);
+  top: 41%;
+  left: 67%;
+  rotate: 235deg;
+  filter: blur(2px);
 }
 .star:nth-child(14) {
   position: absolute;
-  top: 67%;
-  left: 62%;
-  rotate: 212deg;
-  filter: blur(4px);
+  top: 49%;
+  left: 86%;
+  rotate: 328deg;
+  filter: blur(3px);
 }
 .star:nth-child(15) {
   position: absolute;
-  top: 31%;
-  left: 17%;
-  rotate: 115deg;
-  filter: blur(4px);
+  top: 93%;
+  left: 31%;
+  rotate: 81deg;
+  filter: blur(2px);
 }
 .star:nth-child(16) {
   position: absolute;
-  top: 3%;
-  left: 40%;
-  rotate: 102deg;
-  filter: blur(1px);
+  top: 84%;
+  left: 76%;
+  rotate: 224deg;
+  filter: blur(2px);
 }
 .star:nth-child(17) {
   position: absolute;
-  top: 69%;
-  left: 9%;
-  rotate: 247deg;
-  filter: blur(4px);
+  top: 9%;
+  left: 68%;
+  rotate: 64deg;
+  filter: blur(2px);
 }
 .star:nth-child(18) {
   position: absolute;
-  top: 84%;
-  left: 95%;
-  rotate: 327deg;
-  filter: blur(4px);
+  top: 2%;
+  left: 64%;
+  rotate: 106deg;
+  filter: blur(2px);
 }
 .star:nth-child(19) {
   position: absolute;
-  top: 72%;
-  left: 85%;
-  rotate: 323deg;
-  filter: blur(3px);
+  top: 63%;
+  left: 56%;
+  rotate: 344deg;
+  filter: blur(4px);
 }
 .star:nth-child(20) {
   position: absolute;
-  top: 62%;
-  left: 19%;
-  rotate: 80deg;
-  filter: blur(3px);
+  top: 58%;
+  left: 46%;
+  rotate: 214deg;
+  filter: blur(4px);
 }
 .star:nth-child(21) {
   position: absolute;
-  top: 2%;
-  left: 39%;
-  rotate: 259deg;
-  filter: blur(4px);
+  top: 40%;
+  left: 56%;
+  rotate: 200deg;
+  filter: blur(5px);
 }
 .star:nth-child(22) {
   position: absolute;
-  top: 66%;
-  left: 75%;
-  rotate: 197deg;
-  filter: blur(1px);
+  top: 93%;
+  left: 19%;
+  rotate: 69deg;
+  filter: blur(2px);
 }
 .star:nth-child(23) {
   position: absolute;
-  top: 17%;
-  left: 18%;
-  rotate: 106deg;
+  top: 86%;
+  left: 70%;
+  rotate: 291deg;
   filter: blur(1px);
 }
 .star:nth-child(24) {
   position: absolute;
-  top: 12%;
-  left: 63%;
-  rotate: 168deg;
-  filter: blur(4px);
+  top: 53%;
+  left: 6%;
+  rotate: 259deg;
+  filter: blur(5px);
 }
 .star:nth-child(25) {
   position: absolute;
-  top: 40%;
-  left: 6%;
-  rotate: 15deg;
-  filter: blur(1px);
+  top: 69%;
+  left: 78%;
+  rotate: 215deg;
+  filter: blur(2px);
 }
 .star:nth-child(26) {
   position: absolute;
-  top: 62%;
-  left: 85%;
-  rotate: 48deg;
-  filter: blur(5px);
+  top: 60%;
+  left: 93%;
+  rotate: 270deg;
+  filter: blur(1px);
 }
 .star:nth-child(27) {
   position: absolute;
-  top: 79%;
-  left: 52%;
-  rotate: 332deg;
-  filter: blur(3px);
+  top: 69%;
+  left: 22%;
+  rotate: 324deg;
+  filter: blur(2px);
 }
 .star:nth-child(28) {
   position: absolute;
-  top: 12%;
-  left: 39%;
-  rotate: 18deg;
-  filter: blur(4px);
+  top: 49%;
+  left: 10%;
+  rotate: 114deg;
+  filter: blur(3px);
 }
 .star:nth-child(29) {
   position: absolute;
-  top: 76%;
-  left: 84%;
-  rotate: 302deg;
-  filter: blur(5px);
+  top: 32%;
+  left: 75%;
+  rotate: 111deg;
+  filter: blur(1px);
 }
 .star:nth-child(30) {
   position: absolute;
-  top: 80%;
-  left: 93%;
-  rotate: 56deg;
-  filter: blur(1px);
+  top: 78%;
+  left: 2%;
+  rotate: 142deg;
+  filter: blur(5px);
 }
 .star:nth-child(31) {
   position: absolute;
-  top: 7%;
-  left: 28%;
-  rotate: 232deg;
-  filter: blur(3px);
+  top: 51%;
+  left: 63%;
+  rotate: 45deg;
+  filter: blur(1px);
 }
 .star:nth-child(32) {
   position: absolute;
-  top: 7%;
-  left: 73%;
-  rotate: 139deg;
-  filter: blur(3px);
+  top: 47%;
+  left: 5%;
+  rotate: 152deg;
+  filter: blur(2px);
 }
 .star:nth-child(33) {
   position: absolute;
-  top: 74%;
-  left: 83%;
-  rotate: 245deg;
-  filter: blur(1px);
+  top: 94%;
+  left: 65%;
+  rotate: 145deg;
+  filter: blur(5px);
 }
 .star:nth-child(34) {
   position: absolute;
-  top: 53%;
-  left: 80%;
-  rotate: 2deg;
-  filter: blur(2px);
+  top: 43%;
+  left: 44%;
+  rotate: 284deg;
+  filter: blur(1px);
 }
 .star:nth-child(35) {
   position: absolute;
-  top: 39%;
-  left: 74%;
-  rotate: 271deg;
-  filter: blur(4px);
+  top: 71%;
+  left: 32%;
+  rotate: 209deg;
+  filter: blur(2px);
 }
 .star:nth-child(36) {
   position: absolute;
-  top: 48%;
-  left: 16%;
-  rotate: 158deg;
-  filter: blur(2px);
+  top: 40%;
+  left: 62%;
+  rotate: 296deg;
+  filter: blur(3px);
 }
 .star:nth-child(37) {
   position: absolute;
-  top: 52%;
-  left: 28%;
-  rotate: 211deg;
-  filter: blur(4px);
+  top: 43%;
+  left: 37%;
+  rotate: 274deg;
+  filter: blur(2px);
 }
 .star:nth-child(38) {
   position: absolute;
-  top: 18%;
-  left: 21%;
-  rotate: 271deg;
-  filter: blur(2px);
+  top: 79%;
+  left: 68%;
+  rotate: 29deg;
+  filter: blur(1px);
 }
 .star:nth-child(39) {
   position: absolute;
-  top: 55%;
-  left: 56%;
-  rotate: 282deg;
-  filter: blur(4px);
+  top: 20%;
+  left: 72%;
+  rotate: 87deg;
+  filter: blur(1px);
 }
 .star:nth-child(40) {
   position: absolute;
-  top: 70%;
-  left: 23%;
-  rotate: 213deg;
+  top: 16%;
+  left: 81%;
+  rotate: 129deg;
   filter: blur(5px);
 }
 .star:nth-child(41) {
   position: absolute;
-  top: 17%;
-  left: 24%;
-  rotate: 144deg;
-  filter: blur(3px);
+  top: 76%;
+  left: 3%;
+  rotate: 355deg;
+  filter: blur(4px);
 }
 .star:nth-child(42) {
   position: absolute;
-  top: 88%;
-  left: 51%;
-  rotate: 185deg;
-  filter: blur(5px);
+  top: 50%;
+  left: 14%;
+  rotate: 35deg;
+  filter: blur(3px);
 }
 .star:nth-child(43) {
   position: absolute;
-  top: 77%;
-  left: 44%;
-  rotate: 265deg;
-  filter: blur(4px);
+  top: 45%;
+  left: 82%;
+  rotate: 208deg;
+  filter: blur(1px);
 }
 .star:nth-child(44) {
   position: absolute;
-  top: 62%;
-  left: 37%;
-  rotate: 179deg;
-  filter: blur(5px);
+  top: 31%;
+  left: 50%;
+  rotate: 54deg;
+  filter: blur(4px);
 }
 .star:nth-child(45) {
   position: absolute;
-  top: 48%;
-  left: 47%;
-  rotate: 69deg;
-  filter: blur(3px);
+  top: 86%;
+  left: 91%;
+  rotate: 311deg;
+  filter: blur(5px);
 }
 .star:nth-child(46) {
   position: absolute;
-  top: 6%;
-  left: 48%;
-  rotate: 213deg;
-  filter: blur(5px);
+  top: 17%;
+  left: 66%;
+  rotate: 285deg;
+  filter: blur(3px);
 }
 .star:nth-child(47) {
   position: absolute;
-  top: 30%;
-  left: 92%;
-  rotate: 275deg;
-  filter: blur(4px);
+  top: 43%;
+  left: 94%;
+  rotate: 164deg;
+  filter: blur(3px);
 }
 .star:nth-child(48) {
   position: absolute;
   top: 68%;
-  left: 36%;
-  rotate: 181deg;
-  filter: blur(5px);
+  left: 56%;
+  rotate: 143deg;
+  filter: blur(1px);
 }
 .star:nth-child(49) {
   position: absolute;
-  top: 64%;
-  left: 68%;
-  rotate: 304deg;
-  filter: blur(2px);
+  top: 8%;
+  left: 55%;
+  rotate: 240deg;
+  filter: blur(4px);
 }
 .star:nth-child(50) {
   position: absolute;
-  top: 92%;
-  left: 29%;
-  rotate: 193deg;
-  filter: blur(3px);
+  top: 36%;
+  left: 56%;
+  rotate: 339deg;
+  filter: blur(4px);
 }
 .star:nth-child(51) {
   position: absolute;
-  top: 58%;
-  left: 3%;
-  rotate: 329deg;
-  filter: blur(4px);
+  top: 16%;
+  left: 94%;
+  rotate: 343deg;
+  filter: blur(1px);
 }
 .star:nth-child(52) {
   position: absolute;
-  top: 5%;
-  left: 22%;
-  rotate: 208deg;
-  filter: blur(3px);
+  top: 47%;
+  left: 2%;
+  rotate: 236deg;
+  filter: blur(5px);
 }
 .star:nth-child(53) {
   position: absolute;
-  top: 69%;
-  left: 75%;
-  rotate: 16deg;
-  filter: blur(1px);
+  top: 26%;
+  left: 86%;
+  rotate: 295deg;
+  filter: blur(2px);
 }
 .star:nth-child(54) {
   position: absolute;
-  top: 91%;
-  left: 28%;
-  rotate: 50deg;
-  filter: blur(5px);
+  top: 32%;
+  left: 48%;
+  rotate: 330deg;
+  filter: blur(2px);
 }
 .star:nth-child(55) {
   position: absolute;
-  top: 20%;
-  left: 46%;
-  rotate: 247deg;
-  filter: blur(4px);
+  top: 75%;
+  left: 9%;
+  rotate: 5deg;
+  filter: blur(2px);
 }
 .star:nth-child(56) {
   position: absolute;
-  top: 67%;
-  left: 58%;
-  rotate: 9deg;
+  top: 36%;
+  left: 75%;
+  rotate: 218deg;
   filter: blur(1px);
 }
 .star:nth-child(57) {
   position: absolute;
-  top: 1%;
-  left: 6%;
-  rotate: 337deg;
-  filter: blur(4px);
+  top: 83%;
+  left: 13%;
+  rotate: 115deg;
+  filter: blur(1px);
 }
 .star:nth-child(58) {
   position: absolute;
-  top: 45%;
-  left: 94%;
-  rotate: 217deg;
-  filter: blur(4px);
+  top: 88%;
+  left: 64%;
+  rotate: 280deg;
+  filter: blur(3px);
 }
 .star:nth-child(59) {
   position: absolute;
-  top: 15%;
-  left: 74%;
-  rotate: 140deg;
-  filter: blur(2px);
+  top: 42%;
+  left: 54%;
+  rotate: 10deg;
+  filter: blur(4px);
 }
 .star:nth-child(60) {
   position: absolute;
-  top: 19%;
-  left: 23%;
+  top: 58%;
+  left: 12%;
   rotate: 135deg;
   filter: blur(2px);
 }
 .star:nth-child(61) {
   position: absolute;
-  top: 86%;
-  left: 27%;
-  rotate: 201deg;
-  filter: blur(3px);
+  top: 25%;
+  left: 82%;
+  rotate: 145deg;
+  filter: blur(5px);
 }
 .star:nth-child(62) {
   position: absolute;
-  top: 48%;
-  left: 95%;
-  rotate: 221deg;
-  filter: blur(5px);
+  top: 28%;
+  left: 92%;
+  rotate: 350deg;
+  filter: blur(1px);
 }
 .star:nth-child(63) {
   position: absolute;
-  top: 75%;
-  left: 56%;
-  rotate: 127deg;
+  top: 71%;
+  left: 84%;
+  rotate: 126deg;
   filter: blur(5px);
 }
 .star:nth-child(64) {
   position: absolute;
-  top: 62%;
-  left: 82%;
-  rotate: 261deg;
-  filter: blur(3px);
+  top: 70%;
+  left: 5%;
+  rotate: 41deg;
+  filter: blur(5px);
 }
 .star:nth-child(65) {
   position: absolute;
-  top: 28%;
-  left: 59%;
-  rotate: 11deg;
-  filter: blur(4px);
+  top: 53%;
+  left: 27%;
+  rotate: 293deg;
+  filter: blur(5px);
 }
 .star:nth-child(66) {
   position: absolute;
-  top: 86%;
-  left: 5%;
-  rotate: 50deg;
-  filter: blur(4px);
+  top: 1%;
+  left: 59%;
+  rotate: 164deg;
+  filter: blur(1px);
 }
 .star:nth-child(67) {
   position: absolute;
-  top: 42%;
-  left: 8%;
-  rotate: 311deg;
+  top: 69%;
+  left: 12%;
+  rotate: 6deg;
   filter: blur(4px);
 }
 .star:nth-child(68) {
   position: absolute;
-  top: 63%;
-  left: 20%;
-  rotate: 69deg;
-  filter: blur(4px);
+  top: 12%;
+  left: 94%;
+  rotate: 145deg;
+  filter: blur(2px);
 }
 .star:nth-child(69) {
   position: absolute;
-  top: 60%;
-  left: 62%;
-  rotate: 191deg;
-  filter: blur(4px);
+  top: 63%;
+  left: 52%;
+  rotate: 342deg;
+  filter: blur(1px);
 }
 .star:nth-child(70) {
   position: absolute;
-  top: 5%;
-  left: 37%;
-  rotate: 187deg;
-  filter: blur(2px);
+  top: 16%;
+  left: 20%;
+  rotate: 113deg;
+  filter: blur(5px);
 }
 .star:nth-child(71) {
   position: absolute;
-  top: 33%;
-  left: 64%;
-  rotate: 66deg;
-  filter: blur(3px);
+  top: 61%;
+  left: 82%;
+  rotate: 78deg;
+  filter: blur(2px);
 }
 .star:nth-child(72) {
   position: absolute;
-  top: 53%;
-  left: 3%;
-  rotate: 110deg;
-  filter: blur(2px);
+  top: 38%;
+  left: 5%;
+  rotate: 171deg;
+  filter: blur(1px);
 }
 .star:nth-child(73) {
   position: absolute;
-  top: 54%;
-  left: 41%;
-  rotate: 291deg;
-  filter: blur(2px);
+  top: 1%;
+  left: 92%;
+  rotate: 90deg;
+  filter: blur(4px);
 }
 .star:nth-child(74) {
   position: absolute;
-  top: 50%;
-  left: 30%;
-  rotate: 258deg;
+  top: 44%;
+  left: 26%;
+  rotate: 303deg;
   filter: blur(3px);
 }
 .star:nth-child(75) {
   position: absolute;
-  top: 59%;
-  left: 70%;
-  rotate: 156deg;
-  filter: blur(1px);
+  top: 87%;
+  left: 26%;
+  rotate: 242deg;
+  filter: blur(4px);
 }
 .star:nth-child(76) {
   position: absolute;
-  top: 93%;
-  left: 64%;
-  rotate: 133deg;
+  top: 35%;
+  left: 26%;
+  rotate: 31deg;
   filter: blur(5px);
 }
 .star:nth-child(77) {
   position: absolute;
-  top: 52%;
-  left: 56%;
-  rotate: 339deg;
-  filter: blur(2px);
+  top: 16%;
+  left: 45%;
+  rotate: 186deg;
+  filter: blur(3px);
 }
 .star:nth-child(78) {
   position: absolute;
-  top: 33%;
-  left: 83%;
-  rotate: 54deg;
-  filter: blur(4px);
+  top: 80%;
+  left: 70%;
+  rotate: 21deg;
+  filter: blur(2px);
 }
 .star:nth-child(79) {
   position: absolute;
-  top: 2%;
-  left: 4%;
-  rotate: 152deg;
-  filter: blur(1px);
+  top: 44%;
+  left: 44%;
+  rotate: 49deg;
+  filter: blur(2px);
 }
 .star:nth-child(80) {
   position: absolute;
-  top: 95%;
-  left: 44%;
-  rotate: 19deg;
-  filter: blur(1px);
+  top: 31%;
+  left: 69%;
+  rotate: 328deg;
+  filter: blur(3px);
 }
 .star:nth-child(81) {
   position: absolute;
-  top: 39%;
-  left: 14%;
-  rotate: 305deg;
+  top: 32%;
+  left: 39%;
+  rotate: 141deg;
   filter: blur(3px);
 }
 .star:nth-child(82) {
   position: absolute;
-  top: 59%;
-  left: 54%;
-  rotate: 99deg;
-  filter: blur(4px);
+  top: 95%;
+  left: 19%;
+  rotate: 68deg;
+  filter: blur(2px);
 }
 .star:nth-child(83) {
   position: absolute;
-  top: 5%;
-  left: 67%;
-  rotate: 235deg;
+  top: 8%;
+  left: 57%;
+  rotate: 32deg;
   filter: blur(4px);
 }
 .star:nth-child(84) {
   position: absolute;
-  top: 15%;
-  left: 38%;
-  rotate: 126deg;
-  filter: blur(4px);
+  top: 72%;
+  left: 65%;
+  rotate: 302deg;
+  filter: blur(1px);
 }
 .star:nth-child(85) {
   position: absolute;
-  top: 81%;
-  left: 20%;
-  rotate: 35deg;
-  filter: blur(5px);
+  top: 78%;
+  left: 73%;
+  rotate: 149deg;
+  filter: blur(4px);
 }
 .star:nth-child(86) {
   position: absolute;
-  top: 29%;
-  left: 51%;
-  rotate: 115deg;
-  filter: blur(5px);
+  top: 5%;
+  left: 7%;
+  rotate: 337deg;
+  filter: blur(3px);
 }
 .star:nth-child(87) {
   position: absolute;
-  top: 50%;
-  left: 45%;
-  rotate: 288deg;
-  filter: blur(3px);
+  top: 40%;
+  left: 72%;
+  rotate: 212deg;
+  filter: blur(4px);
 }
 .star:nth-child(88) {
   position: absolute;
-  top: 10%;
-  left: 36%;
-  rotate: 294deg;
+  top: 22%;
+  left: 68%;
+  rotate: 83deg;
   filter: blur(2px);
 }
 .star:nth-child(89) {
   position: absolute;
-  top: 81%;
-  left: 49%;
-  rotate: 59deg;
+  top: 80%;
+  left: 95%;
+  rotate: 251deg;
   filter: blur(3px);
 }
 .star:nth-child(90) {
   position: absolute;
-  top: 8%;
-  left: 11%;
-  rotate: 19deg;
-  filter: blur(2px);
+  top: 39%;
+  left: 28%;
+  rotate: 136deg;
+  filter: blur(1px);
 }
 .star:nth-child(91) {
   position: absolute;
-  top: 2%;
-  left: 68%;
-  rotate: 290deg;
+  top: 14%;
+  left: 44%;
+  rotate: 208deg;
   filter: blur(3px);
 }
 .star:nth-child(92) {
   position: absolute;
-  top: 49%;
-  left: 15%;
-  rotate: 127deg;
-  filter: blur(3px);
+  top: 80%;
+  left: 62%;
+  rotate: 86deg;
+  filter: blur(5px);
 }
 .star:nth-child(93) {
   position: absolute;
-  top: 85%;
-  left: 34%;
-  rotate: 183deg;
-  filter: blur(3px);
+  top: 26%;
+  left: 36%;
+  rotate: 254deg;
+  filter: blur(5px);
 }
 .star:nth-child(94) {
   position: absolute;
-  top: 73%;
-  left: 45%;
-  rotate: 13deg;
+  top: 36%;
+  left: 14%;
+  rotate: 174deg;
   filter: blur(1px);
 }
 .star:nth-child(95) {
   position: absolute;
-  top: 21%;
-  left: 22%;
-  rotate: 124deg;
+  top: 41%;
+  left: 12%;
+  rotate: 355deg;
   filter: blur(2px);
 }
 .star:nth-child(96) {
   position: absolute;
-  top: 44%;
-  left: 8%;
+  top: 45%;
+  left: 81%;
   rotate: 89deg;
-  filter: blur(3px);
+  filter: blur(1px);
 }
 .star:nth-child(97) {
   position: absolute;
-  top: 55%;
-  left: 9%;
-  rotate: 49deg;
+  top: 8%;
+  left: 69%;
+  rotate: 134deg;
   filter: blur(2px);
 }
 .star:nth-child(98) {
   position: absolute;
-  top: 84%;
-  left: 53%;
-  rotate: 46deg;
-  filter: blur(2px);
+  top: 52%;
+  left: 48%;
+  rotate: 243deg;
+  filter: blur(1px);
 }
 .star:nth-child(99) {
   position: absolute;
-  top: 12%;
-  left: 91%;
-  rotate: 200deg;
-  filter: blur(1px);
+  top: 22%;
+  left: 60%;
+  rotate: 174deg;
+  filter: blur(4px);
 }
 .star:nth-child(100) {
   position: absolute;
-  top: 28%;
-  left: 30%;
-  rotate: 140deg;
+  top: 53%;
+  left: 70%;
+  rotate: 334deg;
   filter: blur(3px);
 }/*# sourceMappingURL=main.css.map */
